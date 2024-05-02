@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #a8a7a7;
+    
+}
+
+#grupoPrincipal{
+    display: flex;
+    position: absolute;
+    background-color: #FCFCFC;
+    padding: 3% 1.5%;
+    padding-top: 4%;
+    padding-right: 2.5%;
+    border-radius: 20px;
+    height: 30%;
+    width: 40%;
+    left: 30%;
+    top: 30%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#ilustracao{
+    position: absolute;
+    height: 88%;
+    left: -14%;
+}
+
+#DivDaPalavras{
+    margin-left: 35%;
+    width: 65%;
+}
+
+
+
+p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 3%;
+}
+
+.mesmaLinha{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3% 0%;
+}
+
+.icones{
+    height: 140%;
+    cursor: pointer;
+}
+
+hr{
+    border: #FCFCFC;
+    height: 1px;
+    background-color: #D4D4D4;
+
+}
+
+@media (max-width: 1320px){
+    #grupoPrincipal{
+        width: 56%;
+        left: 23%;
+    }
+}
+
+
+@media (max-width: 900px){
+    #grupoPrincipal{
+        width: 70%;
+        left: 17%;
+    }
+}
